@@ -1,0 +1,871 @@
+/* ###### basic style ###### */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* ###### navbar ###### */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15%;
+    background-color: #19355b;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #d1d7de;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 25px;
+}
+
+header ul li a:hover {
+    color: #d99d26;
+    transition: .3s;
+}
+
+header img {
+    height: 55px;
+    border: none;
+    border-radius: 4px;
+}
+
+header ul button {
+    padding: 12px 27px;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: #d99d26;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+/* ###### hero section ###### */
+.hero-section {
+    background: linear-gradient(rgba(26, 53, 82, .55), rgba(26, 53, 82, .85)), url(https://gohighlevel-templates-starter.lovable.app/assets/hero-bg-Dx0oyPz1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 145px 0;
+    text-align: center;
+}
+
+.hero-section h6 {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: rgba(217, 157, 38, .2);
+    padding: 7px;
+    color: rgb(217, 157, 38);
+    margin: 0px 680px;
+    border: 1px solid rgb(217, 157, 38);
+    border-radius: 30px;
+}
+
+.hero-section h1 {
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 70px;
+    padding: 30px 0;
+    color: white;
+}
+
+.hero-section h1 span {
+    color: #d99d26;
+}
+
+.hero-section p {
+    color: #dddedb;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+.hero-section .btn1 {
+    padding: 19px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-color: #d99d26;
+    color: white;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.hero-section .btn2 {
+    padding: 19px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #657fa1;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.hero-section .hero-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 36%;
+    padding-top: 50px;
+}
+
+.hero-section .hero-group div h4 {
+    font-size: 40px;
+    color: #d99d26;
+}
+
+.hero-section .hero-group div p {
+    font-size: 15px;
+    color: rgb(194, 194, 194);
+    text-transform: uppercase;
+}
+
+/* ###### skill building ###### */
+.skill-building {
+    padding: 80px 15%;
+    text-align: center;
+    background-color: #f9fafb;
+}
+
+.skill-building h5 {
+    color: #d99d26;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.skill-building h2 {
+    font-size: 45px;
+    font-weight: 900;
+    color: #0f1c2e;
+    padding-bottom: 20px;
+}
+
+.skill-building h2 span {
+    color: #d99d26;
+}
+
+.skill-building p {
+    font-size: 19px;
+    font-weight: normal;
+    color: rgb(75, 75, 75);
+    line-height: 27px;
+    padding-bottom: 35px;
+}
+
+.skill-building .skill-building-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 230px;
+
+}
+
+.skill-building .skill-building-box div {
+    padding: 30px 10px;
+    background-color: #ffffff;
+    border: 1px solid #dae0e7;
+    margin: 12px;
+}
+
+.skill-building .skill-building-box div h6 {
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+.skill-building .skill-building-box div span {
+    color: #d99d26;
+    font-size: 35px;
+}
+
+/* ###### programs ###### */
+.programs {
+    padding: 100px 15%;
+    text-align: center;
+    background-color: #16325a;
+}
+
+.programs h6 {
+    color: #d99d26;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.programs h2 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    padding: 16px 0;
+}
+
+.programs h2 span {
+    color: #d99d26;
+}
+
+.programs p {
+    color: rgb(199, 199, 199);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.programs .programs-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 120px;
+    padding-top: 50px;
+}
+
+.programs .programs-box div {
+    padding: 30px 20px;
+    background-color: rgba(255, 255, 255, .04);
+    margin: 12px;
+    border: 1px solid rgba(255, 255, 255, .04);
+    border-radius: 8px;
+    text-align: left;
+}
+
+.programs .programs-box div:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.programs .programs-box div span {
+    font-size: 40px;
+    color: #d99d26;
+    padding-bottom: 14px;
+}
+
+.programs .programs-box div h4 {
+    font-size: 20px;
+    color: white;
+}
+
+.programs .programs-box div p {
+    font-size: 14px;
+}
+
+/* ###### Development ###### */
+.development {
+    padding: 100px 15%;
+    text-align: center;
+    background-color: #f9fafb;
+}
+
+.development h6 {
+    color: #d99d26;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.development h2 {
+    font-size: 50px;
+    font-weight: 900;
+    padding: 16px 0;
+}
+
+.development h2 span {
+    color: #d99d26;
+}
+
+.development p {
+    color: rgb(109, 109, 109);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.development .development-box div ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-top: 10px;
+}
+
+.development .development-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 130px;
+    background-color: #f9fafb;
+}
+
+.development .development-box div {
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid rgb(190, 190, 190);
+    padding: 25px;
+    border-radius: 6px;
+}
+
+.development .development-box div span {
+    color: #d99d26;
+    font-size: 36px;
+    background-color: #fbf5e9;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.development .development-box div h3 {
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.development .development-box div ul li {
+    background-color: white;
+    line-height: 25px;
+    color: #616161;
+}
+
+/* ###### Invest ###### */
+.invest {
+    padding: 100px 15%;
+    text-align: center;
+    background-color: #edf0f3;
+}
+
+.invest h6 {
+    color: #d99d26;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.invest h2 {
+    font-size: 50px;
+    font-weight: 900;
+    padding: 16px 0;
+}
+
+.invest h2 span {
+    color: #d99d26;
+}
+
+.invest p {
+    color: rgb(109, 109, 109);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.invest .invest-box {
+    display: flex;
+    justify-content: center;
+    gap: 53px;
+    padding-top: 60px;
+}
+
+.invest .invest-box .box {
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.invest .invest-box .box h3 {
+    font-size: 30px;
+    font-weight: 800;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.invest .invest-box .box h3 sub {
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(70, 70, 70);
+}
+
+.invest .invest-box .box p {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.invest .invest-box .elite-book {
+    background-color: #16325a;
+    padding: 40px;
+    text-align: left;
+    border-radius: 10px;
+    border: 2px solid #d99d26;
+    color: white;
+}
+
+.invest .invest-box .elite-book h3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.invest .invest-box .elite-book h3 sub {
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(214, 214, 214);
+}
+
+.invest .invest-box .elite-book p {
+    font-size: 15px;
+    padding-bottom: 15px;
+    color: rgb(216, 216, 216)
+}
+
+.invest .invest-box .box .btn button {
+    padding: 12px 85px;
+    border: none;
+    background-color: #16325a;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+
+}
+
+.invest .invest-box .elite-book .btn button {
+    padding: 12px 85px;
+    border: none;
+    background-color: #d99d26;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+/* ###### training ###### */
+.training {
+    padding: 100px 19%;
+    background-color: #16325a;
+}
+
+.training .left .icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 8px 0;
+}
+
+.training h6 {
+    color: #d99d26;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.training h2 {
+    font-size: 33px;
+    font-weight: 900;
+    padding: 16px 0;
+    color: white;
+}
+
+.training h2 span {
+    color: #d99d26;
+}
+
+.training p {
+    color: rgb(201, 201, 201);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.training .left .Serving {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.training .left .icon span {
+    color: #d89d26;
+    background-color: #344353;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.training .left .Serving p {
+    background-color: #213f6a;
+    padding: 5px 12px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.training .left .head {
+    padding: 15px 0;
+}
+
+.training {
+    display: flex;
+    justify-content: space-between;
+}
+
+.training .right .input-flex {
+    display: flex;
+    gap: 15px;
+    padding: 0px 0;
+}
+
+.training .right .input-flex label {
+    color: rgb(189, 189, 189);
+    font-size: 13px;
+}
+
+.training .right .input-flex input {
+    padding: 8px 10px 8px 8px;
+    background-color: #19355e;
+    border: 1px solid #23416c;
+    border-radius: 7px;
+    margin-top: 5px;
+}
+
+.training .right .input input {
+    padding: 8px 215px 8px 8px;
+    background-color: #19355e;
+    border: 1px solid #23416c;
+    border-radius: 7px;
+    margin: 5px 0;
+}
+
+.training .right .input label {
+    color: rgb(189, 189, 189);
+    font-size: 13px;
+}
+
+.training .right .input .email {
+    padding: 15px 0;
+}
+
+.training .right .input .phone {
+    padding-bottom: 15px;
+
+}
+
+.training .right .input textarea {
+    padding: 8px 230px 30px 8px;
+    background-color: #19355e;
+    border: 1px solid #23416c;
+    border-radius: 7px;
+    margin: 5px 0;
+}
+
+.training .right .input button {
+    padding: 15px 114px;
+    background: #d99d26;
+    border-radius: 8px;
+    border: none;
+    font-weight: 800;
+    color: white;
+    font-size: 15px;
+}
+
+.training .right .input .button {
+    padding: 25px 0;
+}
+
+.training .right {
+    background-color: #1c3962;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* ###### footer ###### */
+
+footer .logo img {
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+}
+
+footer .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .logo p {
+    color: rgb(202, 202, 202);
+    font-size: 15px;
+}
+
+footer {
+    padding: 40px 15%;
+    background-color: #0f1c2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .menu-itams ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+footer .menu-itams ul a {
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* ------------------------------------------- */
+
+
+@media (max-width:768px) {
+
+    /* ###### navbar ###### */
+    header {
+        padding: 12px 4%;
+        flex-wrap: wrap;
+    }
+
+    header ul {
+        gap: 11px;
+        padding-top: 13px;
+    }
+
+    header ul li a {
+        font-size: 11px;
+        margin-right: 10px;
+    }
+
+    header img {
+        margin: 0 45%;
+    }
+
+    header ul button {
+        display: none;
+    }
+
+    /* ###### hero section ###### */
+    .hero-section {
+        padding: 50px 4%;
+        text-align: center;
+    }
+
+    .hero-section h6 {
+        font-size: 12px;
+        margin: 0px 9%;
+    }
+
+    .hero-section h1 {
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    .hero-section p {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .hero-section .btn1 {
+        padding: 15px 20px;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .hero-section .btn2 {
+        padding: 15px 20px;
+        font-size: 12px;
+    }
+
+    .hero-section .hero-group {
+        margin: 0px 2%;
+        padding-top: 25px;
+    }
+
+    .hero-section .hero-group div h4 {
+        font-size: 25px;
+    }
+
+    .hero-section .hero-group div p {
+        font-size: 11px;
+    }
+
+    /* ###### skill building ###### */
+    .skill-building {
+        padding: 50px 4%;
+    }
+
+    .skill-building h5 {
+        font-size: 14px;
+    }
+
+    .skill-building h2 {
+        font-size: 30px;
+    }
+
+    .skill-building p {
+        font-size: 15px;
+    }
+
+    .skill-building .skill-building-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0px 0px;
+    }
+
+    /* ###### programs ###### */
+    .programs {
+        padding: 50px 4%;
+    }
+
+    .programs h6 {
+        font-size: 14px;
+    }
+
+    .programs h2 {
+        font-size: 30px;
+        padding: 13px 0;
+    }
+
+    .programs p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .programs .programs-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 0px;
+        padding-top: 40px;
+    }
+
+    /* ###### Development ###### */
+    .development {
+        padding: 50px 4%;
+    }
+
+    .development h6 {
+        font-size: 14px;
+    }
+
+    .development h2 {
+        font-size: 30px;
+        padding: 13px 0;
+    }
+
+    .development p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .development .development-box {
+        display: block;
+        margin: 40px 0px;
+    }
+
+    .development .development-box div {
+        margin: 13px 0;
+    }
+
+    /* ###### Invest ###### */
+    .invest {
+        padding: 50px 4%;
+    }
+
+    .invest h6 {
+        font-size: 14px;
+    }
+
+    .invest h2 {
+        font-size: 30px;
+    }
+
+    .invest p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .invest .invest-box {
+        display: block;
+        padding-top: 50px;
+    }
+
+    .invest .invest-box .box {
+        margin: 15PX 0;
+    }
+
+    /* ###### training ###### */
+    .training {
+        padding: 50px 4%;
+    }
+
+    .training h6 {
+        font-size: 14px;
+    }
+
+    .training h2 {
+        font-size: 27px;
+    }
+
+    .training p {
+        color: rgb(201, 201, 201);
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .training .left .Serving {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .training {
+        display: block;
+        justify-content: space-between;
+    }
+
+    .training .right {
+        margin-top: 30px;
+        padding: 8px;
+    }
+
+    .training .right .input-flex input {
+        padding: 8px 0px;
+    }
+
+    .training .right .input input {
+        padding: 8px 175px 8px 3px;
+    }
+
+    .training .right .input textarea {
+        padding: 8px 200px 40px 3px;
+    }
+
+    .training .right .input button {
+        padding: 15px 95px;
+        font-size: 13px;
+        margin: 0 3px;
+    }
+
+    /* ###### footer ###### */
+    footer {
+        padding: 50px 4%;
+        display: block;
+    }
+
+    footer .logo img {
+        height: 30px;
+    }
+
+    footer .menu-itams ul a {
+        font-size: 13px;
+    }
+
+    footer .menu-itams ul {
+        padding-top: 20px;
+        gap: 40px;
+    }
+    footer .logo p {
+        font-size: 14px;
+    }
+}
