@@ -11,7 +11,7 @@ A high-performance **Figma to HTML** conversion project. This landing page is de
 ---
 
 ## 🚀 Live Demo
-🔗 [Experience the Live Site](PASTE_YOUR_LIVE_LINK_HERE)
+🔗 https://asaduzzamanasif30-sudo.github.io/project-2/
 
 ---
 
